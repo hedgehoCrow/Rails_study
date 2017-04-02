@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Capistrano Study Models</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field1</th>
+      <th>Field2</th>
+      <th>Field3</th>
+      <th>Field4</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @capistrano_study_models.each do |capistrano_study_model| %>
+      <tr>
+        <td><%= capistrano_study_model.field1 %></td>
+        <td><%= capistrano_study_model.field2 %></td>
+        <td><%= capistrano_study_model.field3 %></td>
+        <td><%= capistrano_study_model.field4 %></td>
+        <td><%= link_to 'Show', capistrano_study_model %></td>
+        <td><%= link_to 'Edit', edit_capistrano_study_model_path(capistrano_study_model) %></td>
+        <td><%= link_to 'Destroy', capistrano_study_model, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Capistrano Study Model', new_capistrano_study_model_path %>

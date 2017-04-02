@@ -1,0 +1,2 @@
+class CapistranoStudyModel < ApplicationRecord
+end

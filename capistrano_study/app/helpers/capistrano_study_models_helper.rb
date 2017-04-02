@@ -1,0 +1,2 @@
+module CapistranoStudyModelsHelper
+end
