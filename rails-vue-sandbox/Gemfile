@@ -36,7 +36,7 @@ gem "rubyzip", ">= 1.2.2"
 gem "ffi", ">= 1.9.24"
 gem "rails-html-sanitizer", ">= 1.0.4"
 gem "loofah", ">= 2.2.3"
-gem "nokogiri", ">= 1.8.5"
+gem "nokogiri", ">= 1.10.4"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
